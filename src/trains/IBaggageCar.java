@@ -1,7 +1,7 @@
 package trains;
 
 public interface IBaggageCar {
-    Size getBaggageSize();
+	Size getBaggageSize();
 
-    String getBaggageSizeDescription();
+	String getBaggageSizeDescription();
 }
