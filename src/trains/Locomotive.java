@@ -2,6 +2,8 @@ package trains;
 
 import route.Route;
 import route.Station;
+import route.StationConnection;
+import route.exceptions.LastStationException;
 import trains.exceptions.CarTooHeavyException;
 import trains.exceptions.TooManyCarsException;
 import trains.exceptions.TooManyElectricCarsException;
@@ -14,6 +16,7 @@ public class Locomotive {
 	private final Station startStation;
 	private final Station endStation;
 	private final Route route;
+	private StationConnection currentConnection;
 	private final int maxCars;
 	private final int maxElectricCars;
 	private final double maxWeight;
@@ -45,7 +48,7 @@ public class Locomotive {
 		}
 
 		if (car.isElectric) {
-			if (this.getElectricCarsCount() + 1 >= this.maxElectricCars) {
+			if (this.getElectricCarsCount() + 1 > this.maxElectricCars) {
 				throw new TooManyElectricCarsException();
 			}
 		}
@@ -53,6 +56,22 @@ public class Locomotive {
 		this.cars.add(car);
 
 		return this;
+	}
+
+	public void move() {
+		try {
+			StationConnection connection = this.route.moveToNextConnection(this.currentConnection);
+
+			if (connection == null) {
+				System.out.println("YD");
+			} else {
+				this.currentConnection = connection;
+				System.out.printf("Going from %s, to %s", connection.getFrom(), connection.getTo());
+				System.out.println();
+			}
+		} catch (LastStationException e) {
+			System.out.println("OLOLOLO");
+		}
 	}
 
 	@Override

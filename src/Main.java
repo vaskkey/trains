@@ -21,9 +21,12 @@ public class Main {
 		try {
 			loco.addCar(new BaggageCar());
 		} catch (Exception e) {
-			System.err.println(e);
+			System.err.println(e.getMessage());
 		}
 
 		System.out.println(loco);
+		loco.move();
+		loco.move();
+		loco.move();
 	}
 }

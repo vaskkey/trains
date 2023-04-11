@@ -1,5 +1,7 @@
 package route;
 
+import route.exceptions.LastStationException;
+
 import java.util.ArrayList;
 
 public class Route {
@@ -20,15 +22,42 @@ public class Route {
 		return this;
 	}
 
-	public void setBusyConnection(StationConnection connection) {
-		this.busyConnections.add(connection);
+	public StationConnection moveToNextConnection(StationConnection connection) throws LastStationException {
+		if (connection == null) {
+			StationConnection conn = this.connections.get(0);
+			boolean isBusy = this.connectionBusy(conn);
+			return isBusy ? null : this.setBusyConnection(conn);
+		}
+
+		this.removeBusyConnection(connection);
+		StationConnection nextConnection;
+
+		try {
+			nextConnection = this.getNextConnection(connection);
+		} catch (IndexOutOfBoundsException err) {
+			throw new LastStationException();
+		}
+
+		boolean isBusy = this.connectionBusy(nextConnection);
+		return isBusy ? null : this.setBusyConnection(nextConnection);
 	}
 
-	public void removeBusyConnection(StationConnection connection) {
+	private StationConnection getNextConnection(StationConnection connection) {
+		int idx = this.connections.indexOf(connection);
+
+		return this.connections.get(idx + 1);
+	}
+
+	private StationConnection setBusyConnection(StationConnection connection) {
+		this.busyConnections.add(connection);
+		return connection;
+	}
+
+	private void removeBusyConnection(StationConnection connection) {
 		this.busyConnections.remove(connection);
 	}
 
-	public boolean connectionBusy(StationConnection connection) {
+	private boolean connectionBusy(StationConnection connection) {
 		return this.busyConnections.contains(connection);
 	}
 
