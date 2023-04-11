@@ -1,5 +1,7 @@
 package trains;
 
+import route.Route;
+import route.Station;
 import trains.exceptions.CarTooHeavyException;
 import trains.exceptions.TooManyCarsException;
 import trains.exceptions.TooManyElectricCarsException;
@@ -9,8 +11,9 @@ import java.util.ArrayList;
 public class Locomotive {
 	private static int lastId = 1;
 	private final String name;
-	private final String startStation;
-	private final String endStation;
+	private final Station startStation;
+	private final Station endStation;
+	private final Route route;
 	private final int maxCars;
 	private final int maxElectricCars;
 	private final double maxWeight;
@@ -18,12 +21,13 @@ public class Locomotive {
 	private final int id;
 	private final String parentStation;
 
-	public Locomotive(String name, String parentStation, String startStation, String endStation, int maxCars, int maxElectricCars, int maxWeight) {
+	public Locomotive(String name, Route route, String parentStation, int maxCars, int maxElectricCars, int maxWeight) {
 		this.id = lastId++;
 		this.name = name;
 		this.parentStation = parentStation;
-		this.startStation = startStation;
-		this.endStation = endStation;
+		this.startStation = route.getFrom();
+		this.endStation = route.getTo();
+		this.route = route;
 		this.maxCars = maxCars;
 		this.maxElectricCars = maxElectricCars;
 		this.maxWeight = maxWeight;
@@ -31,7 +35,7 @@ public class Locomotive {
 		this.cars = new ArrayList<>();
 	}
 
-	public void addCar(TrainCar car) throws TooManyCarsException, TooManyElectricCarsException, CarTooHeavyException {
+	public Locomotive addCar(TrainCar car) throws TooManyCarsException, TooManyElectricCarsException, CarTooHeavyException {
 		if (cars.size() + 1 > this.maxCars) {
 			throw new TooManyCarsException();
 		}
@@ -47,11 +51,13 @@ public class Locomotive {
 		}
 
 		this.cars.add(car);
+
+		return this;
 	}
 
 	@Override
 	public String toString() {
-		return String.format("A train %s#%d from %s, to %s", this.name, this.id, this.startStation, this.endStation);
+		return String.format("A train %s#%d originating from %s, going from %s, to %s", this.name, this.id, this.parentStation, this.startStation.getName(), this.endStation.getName());
 	}
 
 	private double getElectricCarsCount() {
