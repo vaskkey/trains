@@ -5,15 +5,18 @@ import route.Station;
 import route.StationConnection;
 import route.exceptions.LastStationException;
 import trains.exceptions.CarTooHeavyException;
+import trains.exceptions.RailRoadHazardException;
 import trains.exceptions.TooManyCarsException;
 import trains.exceptions.TooManyElectricCarsException;
 
 import java.util.ArrayList;
 
-public class Locomotive {
+public class Locomotive extends Thread {
+	private final static String monitor = "";
 	private static int lastId = 1;
 	private final String name;
 	private final Station startStation;
+	private double speed = 150;
 	private final Station endStation;
 	private final Route route;
 	private StationConnection currentConnection;
@@ -58,25 +61,67 @@ public class Locomotive {
 		return this;
 	}
 
-	public void move() {
+	@Override
+	public void run() {
+		while (true) {
+			try {
+				this.move();
+			} catch (LastStationException e) {
+				System.out.printf("Train %s arrived to the last station", this.name);
+				System.out.println();
+				break;
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+				break;
+			}
+		}
+	}
+
+	public void move() throws LastStationException, InterruptedException {
+
 		try {
-			StationConnection connection = this.route.moveToNextConnection(this.currentConnection);
+			StationConnection connection;
+			synchronized (monitor) {
+				connection = this.route.moveToNextConnection(this.currentConnection);
+			}
 
 			if (connection == null) {
-				System.out.println("YD");
+				Thread.sleep(500);
 			} else {
 				this.currentConnection = connection;
-				System.out.printf("Going from %s, to %s", connection.getFrom(), connection.getTo());
+				System.out.printf("Train %s#%d leaves %s", this.name, this.id, connection.getFrom());
 				System.out.println();
+				Thread.sleep(this.currentConnection.calculateDuration(this.speed));
+				System.out.printf("Train %s#%d arrives to %s with speed %5.2f", this.name, this.id, connection.getTo(), this.speed);
+				System.out.println();
+				Thread.sleep(2000);
+				this.changeSpeed();
 			}
 		} catch (LastStationException e) {
-			System.out.println("OLOLOLO");
+			throw e;
+		} catch (InterruptedException e) {
+			throw e;
+		} catch (RailRoadHazardException e) {
+			System.out.printf("Train %s#%d is going too fast!", this.name, this.id);
+			System.out.println();
 		}
 	}
 
 	@Override
 	public String toString() {
 		return String.format("A train %s#%d originating from %s, going from %s, to %s", this.name, this.id, this.parentStation, this.startStation.getName(), this.endStation.getName());
+	}
+
+	private void changeSpeed() throws RailRoadHazardException {
+		if (Math.random() > .5) {
+			this.speed += this.speed * .03;
+		} else {
+			this.speed -= this.speed * .03;
+		}
+
+		if (this.speed >= 200) {
+			throw new RailRoadHazardException();
+		}
 	}
 
 	private double getElectricCarsCount() {

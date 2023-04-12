@@ -3,20 +3,20 @@ package route;
 public class StationConnection {
 	private static int ID_COUNT;
 	private final int id;
-	public final int lengthKm;
+	private final int length;
 	private final Station to;
 	private final Station from;
 
 
 	public StationConnection(Station from, Station to) {
-		this(from, to, 10);
+		this(from, to, 100);
 	}
 
-	public StationConnection(Station from, Station to, int lengthKm) {
+	public StationConnection(Station from, Station to, int length) {
 		this.to = to;
 		this.from = from;
 		this.id = ID_COUNT++;
-		this.lengthKm = lengthKm;
+		this.length = length;
 	}
 
 	public Station getTo() {
@@ -25,5 +25,9 @@ public class StationConnection {
 
 	public Station getFrom() {
 		return this.from;
+	}
+
+	public long calculateDuration(double speed) {
+		return Math.round(this.length / speed) * 1000;
 	}
 }
