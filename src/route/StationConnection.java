@@ -9,7 +9,7 @@ public class StationConnection {
 
 
 	public StationConnection(Station from, Station to) {
-		this(from, to, 100);
+		this(from, to, 1000);
 	}
 
 	public StationConnection(Station from, Station to, int length) {

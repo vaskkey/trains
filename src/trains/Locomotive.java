@@ -18,7 +18,8 @@ public class Locomotive extends Thread {
 	private final Station startStation;
 	private double speed = 150;
 	private final Station endStation;
-	private final Route route;
+	private Route route;
+	private Route returnRoute;
 	private StationConnection currentConnection;
 	private final int maxCars;
 	private final int maxElectricCars;
@@ -27,13 +28,14 @@ public class Locomotive extends Thread {
 	private final int id;
 	private final String parentStation;
 
-	public Locomotive(String name, Route route, String parentStation, int maxCars, int maxElectricCars, int maxWeight) {
+	public Locomotive(String name, Route route, Route returnRoute, String parentStation, int maxCars, int maxElectricCars, int maxWeight) {
 		this.id = lastId++;
 		this.name = name;
 		this.parentStation = parentStation;
 		this.startStation = route.getFrom();
 		this.endStation = route.getTo();
 		this.route = route;
+		this.returnRoute = returnRoute;
 		this.maxCars = maxCars;
 		this.maxElectricCars = maxElectricCars;
 		this.maxWeight = maxWeight;
@@ -66,10 +68,6 @@ public class Locomotive extends Thread {
 		while (true) {
 			try {
 				this.move();
-			} catch (LastStationException e) {
-				System.out.printf("Train %s arrived to the last station", this.name);
-				System.out.println();
-				break;
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 				break;
@@ -77,7 +75,7 @@ public class Locomotive extends Thread {
 		}
 	}
 
-	public void move() throws LastStationException, InterruptedException {
+	public void move() throws InterruptedException {
 
 		try {
 			StationConnection connection;
@@ -94,13 +92,21 @@ public class Locomotive extends Thread {
 				Thread.sleep(this.currentConnection.calculateDuration(this.speed));
 				System.out.printf("Train %s#%d arrives to %s with speed %5.2f", this.name, this.id, connection.getTo(), this.speed);
 				System.out.println();
+
+				synchronized (monitor) {
+					this.route.removeBusyConnection(this.currentConnection);
+				}
 				Thread.sleep(2000);
 				this.changeSpeed();
 			}
 		} catch (LastStationException e) {
-			throw e;
-		} catch (InterruptedException e) {
-			throw e;
+			System.out.printf("Train %s arrived to the last station", this.name);
+			System.out.println();
+			Route tmp = this.route;
+
+			this.route = returnRoute;
+			this.returnRoute = tmp;
+			Thread.sleep(30_000);
 		} catch (RailRoadHazardException e) {
 			System.out.printf("Train %s#%d is going too fast!", this.name, this.id);
 			System.out.println();

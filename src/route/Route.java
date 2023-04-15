@@ -29,7 +29,6 @@ public class Route {
 			return isBusy ? null : this.setBusyConnection(conn);
 		}
 
-		this.removeBusyConnection(connection);
 		StationConnection nextConnection;
 
 		try {
@@ -40,6 +39,10 @@ public class Route {
 
 		boolean isBusy = this.connectionBusy(nextConnection);
 		return isBusy ? null : this.setBusyConnection(nextConnection);
+	}
+
+	public void removeBusyConnection(StationConnection connection) {
+		this.busyConnections.remove(connection);
 	}
 
 	private StationConnection getNextConnection(StationConnection connection) {
@@ -53,9 +56,6 @@ public class Route {
 		return connection;
 	}
 
-	private void removeBusyConnection(StationConnection connection) {
-		this.busyConnections.remove(connection);
-	}
 
 	private boolean connectionBusy(StationConnection connection) {
 		return this.busyConnections.contains(connection);
