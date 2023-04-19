@@ -1,14 +1,21 @@
 package trains;
 
 abstract public class TrainCar {
-	protected boolean isElectric;
-	/**
-	 * Described in metric tons
-	 */
-	protected double weight;
+    static int ID = 0;
+    public final int id;
+    protected boolean isElectric;
+    /**
+     * Described in metric tons
+     */
+    protected double maxGrossWeight;
 
-	public TrainCar(boolean isElectric, double weight) {
-		this.isElectric = isElectric;
-		this.weight = weight;
-	}
+    public TrainCar(boolean isElectric, double maxGrossWeight) {
+        this.isElectric = isElectric;
+        this.maxGrossWeight = maxGrossWeight;
+        this.id = ID++;
+    }
+
+    public abstract void stationAction() throws Exception;
+
+    public abstract void endRouteAction();
 }

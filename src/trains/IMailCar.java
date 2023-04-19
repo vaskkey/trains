@@ -1,7 +1,7 @@
 package trains;
 
 public interface IMailCar {
-	Size getMailSize();
+    Size getMailSize();
 
-	String getMailSizeDescription();
+    String getMailSizeDescription();
 }
