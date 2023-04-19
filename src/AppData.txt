@@ -1,0 +1,440 @@
+A train variance#25 originating from Sioux City, going from Hemet, to Gastonia. 1 percent done with its route.
+ Currently moving between Station: Hemet. Coordinates: x:29 y:92 and Station: Redding. Coordinates: x:29 y:94
+A train distances#4 originating from Medford, going from San Bernardino, to Tempe. 2 percent done with its route.
+ Currently moving between Station: Redding. Coordinates: x:29 y:94 and Station: Hemet. Coordinates: x:29 y:92
+A train burns#2 originating from Irving, going from Fayetteville, to Irving. 4 percent done with its route.
+ Currently moving between Station: Fayetteville. Coordinates: x:30 y:35 and Station: McHenry. Coordinates: x:25 y:35
+A train powered#15 originating from Irving, going from Cary, to San Diego. 4 percent done with its route.
+ Currently moving between Station: Cary. Coordinates: x:27 y:89 and Station: Rochester. Coordinates: x:31 y:86
+A train cancer#17 originating from Irving, going from Charleston, to Ann Arbor. 4 percent done with its route.
+ Currently moving between Station: Charleston. Coordinates: x:98 y:20 and Station: Champaign. Coordinates: x:95 y:31
+A train yn#9 originating from Lewisville, going from Hemet, to Charlotte. 5 percent done with its route.
+ Currently moving between Station: Redding. Coordinates: x:29 y:94 and Station: San Bernardino. Coordinates: x:31 y:92
+A train hardwood#10 originating from Lewisville, going from Evansville, to Fayetteville. 7 percent done with its route.
+ Currently moving between Station: Evansville. Coordinates: x:24 y:14 and Station: Jefferson. Coordinates: x:30 y:16
+A train potter#14 originating from Irving, going from Apple Valley, to Modesto. 7 percent done with its route.
+ Currently moving between Station: Apple Valley. Coordinates: x:35 y:61 and Station: Corpus Christi. Coordinates: x:43 y:60
+A train pe#23 originating from Sioux City, going from Kenosha, to Antioch. 7 percent done with its route.
+ Currently moving between Station: Kenosha. Coordinates: x:55 y:5 and Station: Irvine. Coordinates: x:47 y:1
+A train distributions#6 originating from Rockford, going from Oklahoma City, to Lewisville. 10 percent done with its route.
+ Currently moving between Station: Oklahoma City. Coordinates: x:57 y:44 and Station: Bradenton. Coordinates: x:52 y:45
+A train scottish#24 originating from Sioux City, going from Clearwater, to McAllen. 34 percent done with its route.
+ Currently moving between Station: Orlando. Coordinates: x:10 y:20 and Station: Pittsburgh. Coordinates: x:1 y:23
+A train could#3 originating from Sioux City, going from Sioux City, to Simi Valley. 11 percent done with its route.
+ Currently moving between Station: Davidson County. Coordinates: x:42 y:49 and Station: McHenry. Coordinates: x:30 y:42
+A train vegetation#16 originating from Irving, going from Albany, to Champaign. 11 percent done with its route.
+ Currently moving between Station: Albany. Coordinates: x:21 y:44 and Station: McHenry. Coordinates: x:30 y:42
+A train nationwide#20 originating from Irving, going from Fort Smith, to Anaheim. 11 percent done with its route.
+ Currently moving between Station: McHenry. Coordinates: x:25 y:35 and Station: Fayetteville. Coordinates: x:30 y:35
+A train neither#11 originating from Lewisville, going from New York, to Champaign. 13 percent done with its route.
+ Currently moving between Station: Antioch. Coordinates: x:70 y:51 and Station: Temecula. Coordinates: x:81 y:53
+A train police#12 originating from Lewisville, going from Appleton, to McHenry. 14 percent done with its route.
+ Currently moving between Station: Durham. Coordinates: x:90 y:57 and Station: Temecula. Coordinates: x:81 y:53
+A train fatal#22 originating from Irving, going from Hialeah, to Waco. 14 percent done with its route.
+ Currently moving between Station: Hialeah. Coordinates: x:93 y:97 and Station: Rockford. Coordinates: x:78 y:98
+A train rapid#13 originating from Irving, going from Kennewick, to Apple Valley. 17 percent done with its route.
+ Currently moving between Station: Kennewick. Coordinates: x:44 y:32 and Station: Saint Louis. Coordinates: x:36 y:40
+A train chest#7 originating from Rockford, going from Evansville, to Las Vegas. 18 percent done with its route.
+ Currently moving between Station: Evansville. Coordinates: x:24 y:14 and Station: Hartford. Coordinates: x:15 y:15
+A train connecting#19 originating from Irving, going from Rochester, to Fayetteville. 22 percent done with its route.
+ Currently moving between Station: Irving. Coordinates: x:33 y:85 and Station: Boulder. Coordinates: x:56 y:82
+A train bull#8 originating from Rockford, going from Melbourne, to Chandler. 25 percent done with its route.
+ Currently moving between Station: Melbourne. Coordinates: x:8 y:56 and Station: West Covina. Coordinates: x:30 y:49
+A train graphics#5 originating from Rockford, going from Rockford, to Medford. 32 percent done with its route.
+ Currently moving between Station: Rockford. Coordinates: x:78 y:98 and Station: Lake Charles. Coordinates: x:54 y:98
+A train holds#1 originating from Lewisville, going from Saint Paul, to Melbourne. 33 percent done with its route.
+ Currently moving between Station: Saint Paul. Coordinates: x:96 y:39 and Station: Modesto. Coordinates: x:60 y:40
+A train supporters#21 originating from Irving, going from Naperville, to Fayetteville. 56 percent done with its route.
+ Currently moving between Station: Naperville. Coordinates: x:18 y:22 and Station: Santa Clarita. Coordinates: x:62 y:23
+A train always#18 originating from Sioux City, going from Santa Cruz, to West Covina. 68 percent done with its route.
+ Currently moving between Station: Santa Cruz. Coordinates: x:61 y:72 and Station: Apple Valley. Coordinates: x:35 y:61
+A train powered#15 originating from Irving, going from Cary, to San Diego. 6 percent done with its route.
+ Currently moving between Station: Rochester. Coordinates: x:31 y:86 and Station: Irving. Coordinates: x:33 y:85
+A train burns#2 originating from Irving, going from Fayetteville, to Irving. 8 percent done with its route.
+ Currently moving between Station: McHenry. Coordinates: x:25 y:35 and Station: Fort Smith. Coordinates: x:21 y:35
+A train could#3 originating from Sioux City, going from Sioux City, to Simi Valley. 11 percent done with its route.
+ Currently moving between Station: Davidson County. Coordinates: x:42 y:49 and Station: McHenry. Coordinates: x:30 y:42
+A train potter#14 originating from Irving, going from Apple Valley, to Modesto. 11 percent done with its route.
+ Currently moving between Station: Corpus Christi. Coordinates: x:43 y:60 and Station: Jacksonville. Coordinates: x:47 y:62
+A train nationwide#20 originating from Irving, going from Fort Smith, to Anaheim. 11 percent done with its route.
+ Currently moving between Station: McHenry. Coordinates: x:25 y:35 and Station: Fayetteville. Coordinates: x:30 y:35
+A train cancer#17 originating from Irving, going from Charleston, to Ann Arbor. 12 percent done with its route.
+ Currently moving between Station: Champaign. Coordinates: x:95 y:31 and Station: Arlington. Coordinates: x:77 y:30
+A train neither#11 originating from Lewisville, going from New York, to Champaign. 13 percent done with its route.
+ Currently moving between Station: Antioch. Coordinates: x:70 y:51 and Station: Temecula. Coordinates: x:81 y:53
+A train police#12 originating from Lewisville, going from Appleton, to McHenry. 14 percent done with its route.
+ Currently moving between Station: Durham. Coordinates: x:90 y:57 and Station: Temecula. Coordinates: x:81 y:53
+A train fatal#22 originating from Irving, going from Hialeah, to Waco. 14 percent done with its route.
+ Currently moving between Station: Hialeah. Coordinates: x:93 y:97 and Station: Rockford. Coordinates: x:78 y:98
+A train hardwood#10 originating from Lewisville, going from Evansville, to Fayetteville. 16 percent done with its route.
+ Currently moving between Station: Jefferson. Coordinates: x:30 y:16 and Station: Tempe. Coordinates: x:37 y:17
+A train pe#23 originating from Sioux City, going from Kenosha, to Antioch. 18 percent done with its route.
+ Currently moving between Station: Irvine. Coordinates: x:47 y:1 and Station: Anaheim. Coordinates: x:59 y:8
+A train distributions#6 originating from Rockford, going from Oklahoma City, to Lewisville. 19 percent done with its route.
+ Currently moving between Station: Bradenton. Coordinates: x:52 y:45 and Station: Peoria. Coordinates: x:48 y:44
+A train distances#4 originating from Medford, going from San Bernardino, to Tempe. 20 percent done with its route.
+ Currently moving between Station: Hemet. Coordinates: x:29 y:92 and Station: Boulder. Coordinates: x:56 y:82
+A train connecting#19 originating from Irving, going from Rochester, to Fayetteville. 22 percent done with its route.
+ Currently moving between Station: Irving. Coordinates: x:33 y:85 and Station: Boulder. Coordinates: x:56 y:82
+A train variance#25 originating from Sioux City, going from Hemet, to Gastonia. 23 percent done with its route.
+ Currently moving between Station: Redding. Coordinates: x:29 y:94 and Station: Albuquerque. Coordinates: x:68 y:78
+A train bull#8 originating from Rockford, going from Melbourne, to Chandler. 25 percent done with its route.
+ Currently moving between Station: Melbourne. Coordinates: x:8 y:56 and Station: West Covina. Coordinates: x:30 y:49
+A train rapid#13 originating from Irving, going from Kennewick, to Apple Valley. 28 percent done with its route.
+ Currently moving between Station: Saint Louis. Coordinates: x:36 y:40 and Station: Fayetteville. Coordinates: x:30 y:35
+A train vegetation#16 originating from Irving, going from Albany, to Champaign. 28 percent done with its route.
+ Currently moving between Station: McHenry. Coordinates: x:30 y:42 and Station: Davidson County. Coordinates: x:42 y:49
+A train graphics#5 originating from Rockford, going from Rockford, to Medford. 32 percent done with its route.
+ Currently moving between Station: Rockford. Coordinates: x:78 y:98 and Station: Lake Charles. Coordinates: x:54 y:98
+A train holds#1 originating from Lewisville, going from Saint Paul, to Melbourne. 33 percent done with its route.
+ Currently moving between Station: Saint Paul. Coordinates: x:96 y:39 and Station: Modesto. Coordinates: x:60 y:40
+A train scottish#24 originating from Sioux City, going from Clearwater, to McAllen. 34 percent done with its route.
+ Currently moving between Station: Orlando. Coordinates: x:10 y:20 and Station: Pittsburgh. Coordinates: x:1 y:23
+A train chest#7 originating from Rockford, going from Evansville, to Las Vegas. 52 percent done with its route.
+ Currently moving between Station: Hartford. Coordinates: x:15 y:15 and Station: Pittsburgh. Coordinates: x:1 y:23
+A train supporters#21 originating from Irving, going from Naperville, to Fayetteville. 56 percent done with its route.
+ Currently moving between Station: Naperville. Coordinates: x:18 y:22 and Station: Santa Clarita. Coordinates: x:62 y:23
+A train always#18 originating from Sioux City, going from Santa Cruz, to West Covina. 68 percent done with its route.
+ Currently moving between Station: Santa Cruz. Coordinates: x:61 y:72 and Station: Apple Valley. Coordinates: x:35 y:61
+A train yn#9 originating from Lewisville, going from Hemet, to Charlotte. 69 percent done with its route.
+ Currently moving between Station: San Bernardino. Coordinates: x:31 y:92 and Station: Waco. Coordinates: x:71 y:75
+A train powered#15 originating from Irving, going from Cary, to San Diego. 6 percent done with its route.
+ Currently moving between Station: Rochester. Coordinates: x:31 y:86 and Station: Irving. Coordinates: x:33 y:85
+A train could#3 originating from Sioux City, going from Sioux City, to Simi Valley. 11 percent done with its route.
+ Currently moving between Station: Davidson County. Coordinates: x:42 y:49 and Station: McHenry. Coordinates: x:30 y:42
+A train cancer#17 originating from Irving, going from Charleston, to Ann Arbor. 12 percent done with its route.
+ Currently moving between Station: Champaign. Coordinates: x:95 y:31 and Station: Arlington. Coordinates: x:77 y:30
+A train fatal#22 originating from Irving, going from Hialeah, to Waco. 14 percent done with its route.
+ Currently moving between Station: Hialeah. Coordinates: x:93 y:97 and Station: Rockford. Coordinates: x:78 y:98
+A train pe#23 originating from Sioux City, going from Kenosha, to Antioch. 18 percent done with its route.
+ Currently moving between Station: Irvine. Coordinates: x:47 y:1 and Station: Anaheim. Coordinates: x:59 y:8
+A train distances#4 originating from Medford, going from San Bernardino, to Tempe. 20 percent done with its route.
+ Currently moving between Station: Hemet. Coordinates: x:29 y:92 and Station: Boulder. Coordinates: x:56 y:82
+A train nationwide#20 originating from Irving, going from Fort Smith, to Anaheim. 20 percent done with its route.
+ Currently moving between Station: Fayetteville. Coordinates: x:30 y:35 and Station: Saint Louis. Coordinates: x:36 y:40
+A train burns#2 originating from Irving, going from Fayetteville, to Irving. 21 percent done with its route.
+ Currently moving between Station: Fort Smith. Coordinates: x:21 y:35 and Station: San Antonio. Coordinates: x:20 y:48
+A train neither#11 originating from Lewisville, going from New York, to Champaign. 21 percent done with its route.
+ Currently moving between Station: Temecula. Coordinates: x:81 y:53 and Station: Durham. Coordinates: x:90 y:57
+A train connecting#19 originating from Irving, going from Rochester, to Fayetteville. 22 percent done with its route.
+ Currently moving between Station: Irving. Coordinates: x:33 y:85 and Station: Boulder. Coordinates: x:56 y:82
+A train variance#25 originating from Sioux City, going from Hemet, to Gastonia. 23 percent done with its route.
+ Currently moving between Station: Redding. Coordinates: x:29 y:94 and Station: Albuquerque. Coordinates: x:68 y:78
+A train potter#14 originating from Irving, going from Apple Valley, to Modesto. 24 percent done with its route.
+ Currently moving between Station: Jacksonville. Coordinates: x:47 y:62 and Station: Charlotte. Coordinates: x:61 y:59
+A train bull#8 originating from Rockford, going from Melbourne, to Chandler. 25 percent done with its route.
+ Currently moving between Station: Melbourne. Coordinates: x:8 y:56 and Station: West Covina. Coordinates: x:30 y:49
+A train hardwood#10 originating from Lewisville, going from Evansville, to Fayetteville. 25 percent done with its route.
+ Currently moving between Station: Tempe. Coordinates: x:37 y:17 and Station: Fort Lauderdale. Coordinates: x:39 y:10
+A train police#12 originating from Lewisville, going from Appleton, to McHenry. 28 percent done with its route.
+ Currently moving between Station: Temecula. Coordinates: x:81 y:53 and Station: Antioch. Coordinates: x:70 y:51
+A train rapid#13 originating from Irving, going from Kennewick, to Apple Valley. 28 percent done with its route.
+ Currently moving between Station: Saint Louis. Coordinates: x:36 y:40 and Station: Fayetteville. Coordinates: x:30 y:35
+A train vegetation#16 originating from Irving, going from Albany, to Champaign. 28 percent done with its route.
+ Currently moving between Station: McHenry. Coordinates: x:30 y:42 and Station: Davidson County. Coordinates: x:42 y:49
+A train distributions#6 originating from Rockford, going from Oklahoma City, to Lewisville. 29 percent done with its route.
+ Currently moving between Station: Peoria. Coordinates: x:48 y:44 and Station: Sioux City. Coordinates: x:44 y:47
+A train graphics#5 originating from Rockford, going from Rockford, to Medford. 32 percent done with its route.
+ Currently moving between Station: Rockford. Coordinates: x:78 y:98 and Station: Lake Charles. Coordinates: x:54 y:98
+A train holds#1 originating from Lewisville, going from Saint Paul, to Melbourne. 33 percent done with its route.
+ Currently moving between Station: Saint Paul. Coordinates: x:96 y:39 and Station: Modesto. Coordinates: x:60 y:40
+A train chest#7 originating from Rockford, going from Evansville, to Las Vegas. 52 percent done with its route.
+ Currently moving between Station: Hartford. Coordinates: x:15 y:15 and Station: Pittsburgh. Coordinates: x:1 y:23
+A train supporters#21 originating from Irving, going from Naperville, to Fayetteville. 56 percent done with its route.
+ Currently moving between Station: Naperville. Coordinates: x:18 y:22 and Station: Santa Clarita. Coordinates: x:62 y:23
+A train always#18 originating from Sioux City, going from Santa Cruz, to West Covina. 68 percent done with its route.
+ Currently moving between Station: Santa Cruz. Coordinates: x:61 y:72 and Station: Apple Valley. Coordinates: x:35 y:61
+A train yn#9 originating from Lewisville, going from Hemet, to Charlotte. 69 percent done with its route.
+ Currently moving between Station: San Bernardino. Coordinates: x:31 y:92 and Station: Waco. Coordinates: x:71 y:75
+A train scottish#24 originating from Sioux City, going from Clearwater, to McAllen. 76 percent done with its route.
+ Currently moving between Station: Pittsburgh. Coordinates: x:1 y:23 and Station: Hartford. Coordinates: x:15 y:15
+A train powered#15 originating from Irving, going from Cary, to San Diego. 6 percent done with its route.
+ Currently moving between Station: Rochester. Coordinates: x:31 y:86 and Station: Irving. Coordinates: x:33 y:85
+A train cancer#17 originating from Irving, going from Charleston, to Ann Arbor. 12 percent done with its route.
+ Currently moving between Station: Champaign. Coordinates: x:95 y:31 and Station: Arlington. Coordinates: x:77 y:30
+A train could#3 originating from Sioux City, going from Sioux City, to Simi Valley. 18 percent done with its route.
+ Currently moving between Station: McHenry. Coordinates: x:30 y:42 and Station: Albany. Coordinates: x:21 y:44
+A train distances#4 originating from Medford, going from San Bernardino, to Tempe. 20 percent done with its route.
+ Currently moving between Station: Hemet. Coordinates: x:29 y:92 and Station: Boulder. Coordinates: x:56 y:82
+A train burns#2 originating from Irving, going from Fayetteville, to Irving. 21 percent done with its route.
+ Currently moving between Station: Fort Smith. Coordinates: x:21 y:35 and Station: San Antonio. Coordinates: x:20 y:48
+A train neither#11 originating from Lewisville, going from New York, to Champaign. 21 percent done with its route.
+ Currently moving between Station: Temecula. Coordinates: x:81 y:53 and Station: Durham. Coordinates: x:90 y:57
+A train connecting#19 originating from Irving, going from Rochester, to Fayetteville. 22 percent done with its route.
+ Currently moving between Station: Irving. Coordinates: x:33 y:85 and Station: Boulder. Coordinates: x:56 y:82
+A train variance#25 originating from Sioux City, going from Hemet, to Gastonia. 23 percent done with its route.
+ Currently moving between Station: Redding. Coordinates: x:29 y:94 and Station: Albuquerque. Coordinates: x:68 y:78
+A train potter#14 originating from Irving, going from Apple Valley, to Modesto. 24 percent done with its route.
+ Currently moving between Station: Jacksonville. Coordinates: x:47 y:62 and Station: Charlotte. Coordinates: x:61 y:59
+A train hardwood#10 originating from Lewisville, going from Evansville, to Fayetteville. 25 percent done with its route.
+ Currently moving between Station: Tempe. Coordinates: x:37 y:17 and Station: Fort Lauderdale. Coordinates: x:39 y:10
+A train police#12 originating from Lewisville, going from Appleton, to McHenry. 28 percent done with its route.
+ Currently moving between Station: Temecula. Coordinates: x:81 y:53 and Station: Antioch. Coordinates: x:70 y:51
+A train vegetation#16 originating from Irving, going from Albany, to Champaign. 28 percent done with its route.
+ Currently moving between Station: McHenry. Coordinates: x:30 y:42 and Station: Davidson County. Coordinates: x:42 y:49
+A train holds#1 originating from Lewisville, going from Saint Paul, to Melbourne. 33 percent done with its route.
+ Currently moving between Station: Saint Paul. Coordinates: x:96 y:39 and Station: Modesto. Coordinates: x:60 y:40
+A train graphics#5 originating from Rockford, going from Rockford, to Medford. 33 percent done with its route.
+ Currently moving between Station: Lake Charles. Coordinates: x:54 y:98 and Station: Pensacola. Coordinates: x:54 y:97
+A train nationwide#20 originating from Irving, going from Fort Smith, to Anaheim. 34 percent done with its route.
+ Currently moving between Station: Saint Louis. Coordinates: x:36 y:40 and Station: Kennewick. Coordinates: x:44 y:32
+A train rapid#13 originating from Irving, going from Kennewick, to Apple Valley. 36 percent done with its route.
+ Currently moving between Station: Fayetteville. Coordinates: x:30 y:35 and Station: McHenry. Coordinates: x:25 y:35
+A train fatal#22 originating from Irving, going from Hialeah, to Waco. 36 percent done with its route.
+ Currently moving between Station: Rockford. Coordinates: x:78 y:98 and Station: Lake Charles. Coordinates: x:54 y:98
+A train pe#23 originating from Sioux City, going from Kenosha, to Antioch. 38 percent done with its route.
+ Currently moving between Station: Anaheim. Coordinates: x:59 y:8 and Station: Saint Louis. Coordinates: x:72 y:28
+A train bull#8 originating from Rockford, going from Melbourne, to Chandler. 48 percent done with its route.
+ Currently moving between Station: West Covina. Coordinates: x:30 y:49 and Station: Moreno Valley. Coordinates: x:50 y:51
+A train chest#7 originating from Rockford, going from Evansville, to Las Vegas. 52 percent done with its route.
+ Currently moving between Station: Hartford. Coordinates: x:15 y:15 and Station: Pittsburgh. Coordinates: x:1 y:23
+A train supporters#21 originating from Irving, going from Naperville, to Fayetteville. 56 percent done with its route.
+ Currently moving between Station: Naperville. Coordinates: x:18 y:22 and Station: Santa Clarita. Coordinates: x:62 y:23
+A train distributions#6 originating from Rockford, going from Oklahoma City, to Lewisville. 61 percent done with its route.
+ Currently moving between Station: Davidson County. Coordinates: x:42 y:49 and Station: McHenry. Coordinates: x:30 y:42
+A train always#18 originating from Sioux City, going from Santa Cruz, to West Covina. 68 percent done with its route.
+ Currently moving between Station: Santa Cruz. Coordinates: x:61 y:72 and Station: Apple Valley. Coordinates: x:35 y:61
+A train yn#9 originating from Lewisville, going from Hemet, to Charlotte. 69 percent done with its route.
+ Currently moving between Station: San Bernardino. Coordinates: x:31 y:92 and Station: Waco. Coordinates: x:71 y:75
+A train scottish#24 originating from Sioux City, going from Clearwater, to McAllen. 76 percent done with its route.
+ Currently moving between Station: Pittsburgh. Coordinates: x:1 y:23 and Station: Hartford. Coordinates: x:15 y:15
+A train cancer#17 originating from Irving, going from Charleston, to Ann Arbor. 14 percent done with its route.
+ Currently moving between Station: Arlington. Coordinates: x:77 y:30 and Station: Saint Louis. Coordinates: x:72 y:28
+A train distances#4 originating from Medford, going from San Bernardino, to Tempe. 20 percent done with its route.
+ Currently moving between Station: Hemet. Coordinates: x:29 y:92 and Station: Boulder. Coordinates: x:56 y:82
+A train could#3 originating from Sioux City, going from Sioux City, to Simi Valley. 21 percent done with its route.
+ Currently moving between Station: Albany. Coordinates: x:21 y:44 and Station: San Antonio. Coordinates: x:20 y:48
+A train variance#25 originating from Sioux City, going from Hemet, to Gastonia. 23 percent done with its route.
+ Currently moving between Station: Redding. Coordinates: x:29 y:94 and Station: Albuquerque. Coordinates: x:68 y:78
+A train potter#14 originating from Irving, going from Apple Valley, to Modesto. 24 percent done with its route.
+ Currently moving between Station: Jacksonville. Coordinates: x:47 y:62 and Station: Charlotte. Coordinates: x:61 y:59
+A train powered#15 originating from Irving, going from Cary, to San Diego. 29 percent done with its route.
+ Currently moving between Station: Irving. Coordinates: x:33 y:85 and Station: Boulder. Coordinates: x:56 y:82
+A train burns#2 originating from Irving, going from Fayetteville, to Irving. 31 percent done with its route.
+ Currently moving between Station: San Antonio. Coordinates: x:20 y:48 and Station: West Covina. Coordinates: x:30 y:49
+A train police#12 originating from Lewisville, going from Appleton, to McHenry. 32 percent done with its route.
+ Currently moving between Station: Antioch. Coordinates: x:70 y:51 and Station: New York. Coordinates: x:67 y:49
+A train holds#1 originating from Lewisville, going from Saint Paul, to Melbourne. 33 percent done with its route.
+ Currently moving between Station: Saint Paul. Coordinates: x:96 y:39 and Station: Modesto. Coordinates: x:60 y:40
+A train connecting#19 originating from Irving, going from Rochester, to Fayetteville. 33 percent done with its route.
+ Currently moving between Station: Boulder. Coordinates: x:56 y:82 and Station: Albuquerque. Coordinates: x:68 y:78
+A train nationwide#20 originating from Irving, going from Fort Smith, to Anaheim. 34 percent done with its route.
+ Currently moving between Station: Saint Louis. Coordinates: x:36 y:40 and Station: Kennewick. Coordinates: x:44 y:32
+A train fatal#22 originating from Irving, going from Hialeah, to Waco. 36 percent done with its route.
+ Currently moving between Station: Rockford. Coordinates: x:78 y:98 and Station: Lake Charles. Coordinates: x:54 y:98
+A train vegetation#16 originating from Irving, going from Albany, to Champaign. 37 percent done with its route.
+ Currently moving between Station: Sioux City. Coordinates: x:44 y:47 and Station: Peoria. Coordinates: x:48 y:44
+A train pe#23 originating from Sioux City, going from Kenosha, to Antioch. 38 percent done with its route.
+ Currently moving between Station: Anaheim. Coordinates: x:59 y:8 and Station: Saint Louis. Coordinates: x:72 y:28
+A train rapid#13 originating from Irving, going from Kennewick, to Apple Valley. 42 percent done with its route.
+ Currently moving between Station: McHenry. Coordinates: x:25 y:35 and Station: Fort Smith. Coordinates: x:21 y:35
+A train bull#8 originating from Rockford, going from Melbourne, to Chandler. 48 percent done with its route.
+ Currently moving between Station: West Covina. Coordinates: x:30 y:49 and Station: Moreno Valley. Coordinates: x:50 y:51
+A train supporters#21 originating from Irving, going from Naperville, to Fayetteville. 56 percent done with its route.
+ Currently moving between Station: Naperville. Coordinates: x:18 y:22 and Station: Santa Clarita. Coordinates: x:62 y:23
+A train hardwood#10 originating from Lewisville, going from Evansville, to Fayetteville. 57 percent done with its route.
+ Currently moving between Station: Fort Lauderdale. Coordinates: x:39 y:10 and Station: Santa Clarita. Coordinates: x:62 y:23
+A train neither#11 originating from Lewisville, going from New York, to Champaign. 57 percent done with its route.
+ Currently moving between Station: Durham. Coordinates: x:90 y:57 and Station: Bradenton. Coordinates: x:52 y:45
+A train distributions#6 originating from Rockford, going from Oklahoma City, to Lewisville. 61 percent done with its route.
+ Currently moving between Station: Davidson County. Coordinates: x:42 y:49 and Station: McHenry. Coordinates: x:30 y:42
+A train graphics#5 originating from Rockford, going from Rockford, to Medford. 64 percent done with its route.
+ Currently moving between Station: Pensacola. Coordinates: x:54 y:97 and Station: San Bernardino. Coordinates: x:31 y:92
+A train yn#9 originating from Lewisville, going from Hemet, to Charlotte. 69 percent done with its route.
+ Currently moving between Station: San Bernardino. Coordinates: x:31 y:92 and Station: Waco. Coordinates: x:71 y:75
+A train scottish#24 originating from Sioux City, going from Clearwater, to McAllen. 76 percent done with its route.
+ Currently moving between Station: Pittsburgh. Coordinates: x:1 y:23 and Station: Hartford. Coordinates: x:15 y:15
+A train chest#7 originating from Rockford, going from Evansville, to Las Vegas. 87 percent done with its route.
+ Currently moving between Station: Pittsburgh. Coordinates: x:1 y:23 and Station: Overland Park. Coordinates: x:10 y:38
+A train always#18 originating from Sioux City, going from Santa Cruz, to West Covina. 100 percent done with its route.
+ Currently moving between Station: Apple Valley. Coordinates: x:35 y:61 and Station: West Covina. Coordinates: x:30 y:49
+A train cancer#17 originating from Irving, going from Charleston, to Ann Arbor. 14 percent done with its route.
+ Currently moving between Station: Arlington. Coordinates: x:77 y:30 and Station: Saint Louis. Coordinates: x:72 y:28
+A train distances#4 originating from Medford, going from San Bernardino, to Tempe. 20 percent done with its route.
+ Currently moving between Station: Hemet. Coordinates: x:29 y:92 and Station: Boulder. Coordinates: x:56 y:82
+A train variance#25 originating from Sioux City, going from Hemet, to Gastonia. 23 percent done with its route.
+ Currently moving between Station: Redding. Coordinates: x:29 y:94 and Station: Albuquerque. Coordinates: x:68 y:78
+A train could#3 originating from Sioux City, going from Sioux City, to Simi Valley. 25 percent done with its route.
+ Currently moving between Station: San Antonio. Coordinates: x:20 y:48 and Station: Lewisville. Coordinates: x:15 y:45
+A train powered#15 originating from Irving, going from Cary, to San Diego. 29 percent done with its route.
+ Currently moving between Station: Irving. Coordinates: x:33 y:85 and Station: Boulder. Coordinates: x:56 y:82
+A train potter#14 originating from Irving, going from Apple Valley, to Modesto. 30 percent done with its route.
+ Currently moving between Station: Charlotte. Coordinates: x:61 y:59 and Station: Washington. Coordinates: x:65 y:64
+A train burns#2 originating from Irving, going from Fayetteville, to Irving. 31 percent done with its route.
+ Currently moving between Station: San Antonio. Coordinates: x:20 y:48 and Station: West Covina. Coordinates: x:30 y:49
+A train connecting#19 originating from Irving, going from Rochester, to Fayetteville. 33 percent done with its route.
+ Currently moving between Station: Boulder. Coordinates: x:56 y:82 and Station: Albuquerque. Coordinates: x:68 y:78
+A train fatal#22 originating from Irving, going from Hialeah, to Waco. 36 percent done with its route.
+ Currently moving between Station: Rockford. Coordinates: x:78 y:98 and Station: Lake Charles. Coordinates: x:54 y:98
+A train vegetation#16 originating from Irving, going from Albany, to Champaign. 37 percent done with its route.
+ Currently moving between Station: Sioux City. Coordinates: x:44 y:47 and Station: Peoria. Coordinates: x:48 y:44
+A train pe#23 originating from Sioux City, going from Kenosha, to Antioch. 38 percent done with its route.
+ Currently moving between Station: Anaheim. Coordinates: x:59 y:8 and Station: Saint Louis. Coordinates: x:72 y:28
+A train holds#1 originating from Lewisville, going from Saint Paul, to Melbourne. 39 percent done with its route.
+ Currently moving between Station: Modesto. Coordinates: x:60 y:40 and Station: Fayetteville. Coordinates: x:57 y:34
+A train bull#8 originating from Rockford, going from Melbourne, to Chandler. 48 percent done with its route.
+ Currently moving between Station: West Covina. Coordinates: x:30 y:49 and Station: Moreno Valley. Coordinates: x:50 y:51
+A train police#12 originating from Lewisville, going from Appleton, to McHenry. 48 percent done with its route.
+ Currently moving between Station: New York. Coordinates: x:67 y:49 and Station: Cleveland. Coordinates: x:54 y:51
+A train supporters#21 originating from Irving, going from Naperville, to Fayetteville. 56 percent done with its route.
+ Currently moving between Station: Naperville. Coordinates: x:18 y:22 and Station: Santa Clarita. Coordinates: x:62 y:23
+A train hardwood#10 originating from Lewisville, going from Evansville, to Fayetteville. 57 percent done with its route.
+ Currently moving between Station: Fort Lauderdale. Coordinates: x:39 y:10 and Station: Santa Clarita. Coordinates: x:62 y:23
+A train neither#11 originating from Lewisville, going from New York, to Champaign. 57 percent done with its route.
+ Currently moving between Station: Durham. Coordinates: x:90 y:57 and Station: Bradenton. Coordinates: x:52 y:45
+A train distributions#6 originating from Rockford, going from Oklahoma City, to Lewisville. 61 percent done with its route.
+ Currently moving between Station: Davidson County. Coordinates: x:42 y:49 and Station: McHenry. Coordinates: x:30 y:42
+A train rapid#13 originating from Irving, going from Kennewick, to Apple Valley. 63 percent done with its route.
+ Currently moving between Station: Fort Smith. Coordinates: x:21 y:35 and Station: San Antonio. Coordinates: x:20 y:48
+A train graphics#5 originating from Rockford, going from Rockford, to Medford. 64 percent done with its route.
+ Currently moving between Station: Pensacola. Coordinates: x:54 y:97 and Station: San Bernardino. Coordinates: x:31 y:92
+A train yn#9 originating from Lewisville, going from Hemet, to Charlotte. 69 percent done with its route.
+ Currently moving between Station: San Bernardino. Coordinates: x:31 y:92 and Station: Waco. Coordinates: x:71 y:75
+A train nationwide#20 originating from Irving, going from Fort Smith, to Anaheim. 70 percent done with its route.
+ Currently moving between Station: Kennewick. Coordinates: x:44 y:32 and Station: Saint Louis. Coordinates: x:72 y:28
+A train chest#7 originating from Rockford, going from Evansville, to Las Vegas. 87 percent done with its route.
+ Currently moving between Station: Pittsburgh. Coordinates: x:1 y:23 and Station: Overland Park. Coordinates: x:10 y:38
+A train always#18 originating from Sioux City, going from Santa Cruz, to West Covina. 100 percent done with its route.
+ Currently moving between Station: Apple Valley. Coordinates: x:35 y:61 and Station: West Covina. Coordinates: x:30 y:49
+A train scottish#24 originating from Sioux City, going from Clearwater, to McAllen. 100 percent done with its route.
+ Currently moving between Station: Hartford. Coordinates: x:15 y:15 and Station: McAllen. Coordinates: x:18 y:6
+A train cancer#17 originating from Irving, going from Charleston, to Ann Arbor. 17 percent done with its route.
+ Currently moving between Station: Saint Louis. Coordinates: x:72 y:28 and Station: Eugene. Coordinates: x:65 y:26
+A train variance#25 originating from Sioux City, going from Hemet, to Gastonia. 23 percent done with its route.
+ Currently moving between Station: Redding. Coordinates: x:29 y:94 and Station: Albuquerque. Coordinates: x:68 y:78
+A train could#3 originating from Sioux City, going from Sioux City, to Simi Valley. 26 percent done with its route.
+ Currently moving between Station: Lewisville. Coordinates: x:15 y:45 and Station: Las Vegas. Coordinates: x:14 y:43
+A train powered#15 originating from Irving, going from Cary, to San Diego. 29 percent done with its route.
+ Currently moving between Station: Irving. Coordinates: x:33 y:85 and Station: Boulder. Coordinates: x:56 y:82
+A train distances#4 originating from Medford, going from San Bernardino, to Tempe. 31 percent done with its route.
+ Currently moving between Station: Boulder. Coordinates: x:56 y:82 and Station: Raleigh. Coordinates: x:67 y:68
+A train connecting#19 originating from Irving, going from Rochester, to Fayetteville. 36 percent done with its route.
+ Currently moving between Station: Albuquerque. Coordinates: x:68 y:78 and Station: Antioch. Coordinates: x:68 y:75
+A train fatal#22 originating from Irving, going from Hialeah, to Waco. 36 percent done with its route.
+ Currently moving between Station: Rockford. Coordinates: x:78 y:98 and Station: Lake Charles. Coordinates: x:54 y:98
+A train pe#23 originating from Sioux City, going from Kenosha, to Antioch. 38 percent done with its route.
+ Currently moving between Station: Anaheim. Coordinates: x:59 y:8 and Station: Saint Louis. Coordinates: x:72 y:28
+A train holds#1 originating from Lewisville, going from Saint Paul, to Melbourne. 39 percent done with its route.
+ Currently moving between Station: Modesto. Coordinates: x:60 y:40 and Station: Fayetteville. Coordinates: x:57 y:34
+A train potter#14 originating from Irving, going from Apple Valley, to Modesto. 42 percent done with its route.
+ Currently moving between Station: Washington. Coordinates: x:65 y:64 and Station: Waterloo. Coordinates: x:77 y:57
+A train vegetation#16 originating from Irving, going from Albany, to Champaign. 42 percent done with its route.
+ Currently moving between Station: Peoria. Coordinates: x:48 y:44 and Station: Bradenton. Coordinates: x:52 y:45
+A train burns#2 originating from Irving, going from Fayetteville, to Irving. 43 percent done with its route.
+ Currently moving between Station: West Covina. Coordinates: x:30 y:49 and Station: Apple Valley. Coordinates: x:35 y:61
+A train bull#8 originating from Rockford, going from Melbourne, to Chandler. 48 percent done with its route.
+ Currently moving between Station: West Covina. Coordinates: x:30 y:49 and Station: Moreno Valley. Coordinates: x:50 y:51
+A train police#12 originating from Lewisville, going from Appleton, to McHenry. 48 percent done with its route.
+ Currently moving between Station: New York. Coordinates: x:67 y:49 and Station: Cleveland. Coordinates: x:54 y:51
+A train supporters#21 originating from Irving, going from Naperville, to Fayetteville. 56 percent done with its route.
+ Currently moving between Station: Naperville. Coordinates: x:18 y:22 and Station: Santa Clarita. Coordinates: x:62 y:23
+A train hardwood#10 originating from Lewisville, going from Evansville, to Fayetteville. 57 percent done with its route.
+ Currently moving between Station: Fort Lauderdale. Coordinates: x:39 y:10 and Station: Santa Clarita. Coordinates: x:62 y:23
+A train neither#11 originating from Lewisville, going from New York, to Champaign. 57 percent done with its route.
+ Currently moving between Station: Durham. Coordinates: x:90 y:57 and Station: Bradenton. Coordinates: x:52 y:45
+A train rapid#13 originating from Irving, going from Kennewick, to Apple Valley. 63 percent done with its route.
+ Currently moving between Station: Fort Smith. Coordinates: x:21 y:35 and Station: San Antonio. Coordinates: x:20 y:48
+A train graphics#5 originating from Rockford, going from Rockford, to Medford. 64 percent done with its route.
+ Currently moving between Station: Pensacola. Coordinates: x:54 y:97 and Station: San Bernardino. Coordinates: x:31 y:92
+A train yn#9 originating from Lewisville, going from Hemet, to Charlotte. 69 percent done with its route.
+ Currently moving between Station: San Bernardino. Coordinates: x:31 y:92 and Station: Waco. Coordinates: x:71 y:75
+A train nationwide#20 originating from Irving, going from Fort Smith, to Anaheim. 70 percent done with its route.
+ Currently moving between Station: Kennewick. Coordinates: x:44 y:32 and Station: Saint Louis. Coordinates: x:72 y:28
+A train distributions#6 originating from Rockford, going from Oklahoma City, to Lewisville. 80 percent done with its route.
+ Currently moving between Station: McHenry. Coordinates: x:30 y:42 and Station: Albany. Coordinates: x:21 y:44
+A train chest#7 originating from Rockford, going from Evansville, to Las Vegas. 87 percent done with its route.
+ Currently moving between Station: Pittsburgh. Coordinates: x:1 y:23 and Station: Overland Park. Coordinates: x:10 y:38
+A train always#18 originating from Sioux City, going from Santa Cruz, to West Covina. 100 percent done with its route.
+ Currently moving between Station: Apple Valley. Coordinates: x:35 y:61 and Station: West Covina. Coordinates: x:30 y:49
+A train scottish#24 originating from Sioux City, going from Clearwater, to McAllen. 100 percent done with its route.
+ Currently moving between Station: Hartford. Coordinates: x:15 y:15 and Station: McAllen. Coordinates: x:18 y:6
+A train always#18 originating from Sioux City, going from Santa Cruz, to West Covina. Waiting for next connection to free up
+A train scottish#24 originating from Sioux City, going from Clearwater, to McAllen. Waiting for next connection to free up
+A train cancer#17 originating from Irving, going from Charleston, to Ann Arbor. 19 percent done with its route.
+ Currently moving between Station: Eugene. Coordinates: x:65 y:26 and Station: Santa Clarita. Coordinates: x:62 y:23
+A train variance#25 originating from Sioux City, going from Hemet, to Gastonia. 23 percent done with its route.
+ Currently moving between Station: Redding. Coordinates: x:29 y:94 and Station: Albuquerque. Coordinates: x:68 y:78
+A train powered#15 originating from Irving, going from Cary, to San Diego. 29 percent done with its route.
+ Currently moving between Station: Irving. Coordinates: x:33 y:85 and Station: Boulder. Coordinates: x:56 y:82
+A train distances#4 originating from Medford, going from San Bernardino, to Tempe. 31 percent done with its route.
+ Currently moving between Station: Boulder. Coordinates: x:56 y:82 and Station: Raleigh. Coordinates: x:67 y:68
+A train fatal#22 originating from Irving, going from Hialeah, to Waco. 37 percent done with its route.
+ Currently moving between Station: Lake Charles. Coordinates: x:54 y:98 and Station: Pensacola. Coordinates: x:54 y:97
+A train could#3 originating from Sioux City, going from Sioux City, to Simi Valley. 40 percent done with its route.
+ Currently moving between Station: Las Vegas. Coordinates: x:14 y:43 and Station: Bradenton. Coordinates: x:3 y:57
+A train potter#14 originating from Irving, going from Apple Valley, to Modesto. 42 percent done with its route.
+ Currently moving between Station: Washington. Coordinates: x:65 y:64 and Station: Waterloo. Coordinates: x:77 y:57
+A train burns#2 originating from Irving, going from Fayetteville, to Irving. 43 percent done with its route.
+ Currently moving between Station: West Covina. Coordinates: x:30 y:49 and Station: Apple Valley. Coordinates: x:35 y:61
+A train holds#1 originating from Lewisville, going from Saint Paul, to Melbourne. 51 percent done with its route.
+ Currently moving between Station: Fayetteville. Coordinates: x:57 y:34 and Station: Kennewick. Coordinates: x:44 y:32
+A train bull#8 originating from Rockford, going from Melbourne, to Chandler. 52 percent done with its route.
+ Currently moving between Station: Moreno Valley. Coordinates: x:50 y:51 and Station: Cleveland. Coordinates: x:54 y:51
+A train police#12 originating from Lewisville, going from Appleton, to McHenry. 53 percent done with its route.
+ Currently moving between Station: Cleveland. Coordinates: x:54 y:51 and Station: Moreno Valley. Coordinates: x:50 y:51
+A train vegetation#16 originating from Irving, going from Albany, to Champaign. 53 percent done with its route.
+ Currently moving between Station: Bradenton. Coordinates: x:52 y:45 and Station: Modesto. Coordinates: x:60 y:40
+A train hardwood#10 originating from Lewisville, going from Evansville, to Fayetteville. 57 percent done with its route.
+ Currently moving between Station: Fort Lauderdale. Coordinates: x:39 y:10 and Station: Santa Clarita. Coordinates: x:62 y:23
+A train neither#11 originating from Lewisville, going from New York, to Champaign. 57 percent done with its route.
+ Currently moving between Station: Durham. Coordinates: x:90 y:57 and Station: Bradenton. Coordinates: x:52 y:45
+A train connecting#19 originating from Irving, going from Rochester, to Fayetteville. 58 percent done with its route.
+ Currently moving between Station: Antioch. Coordinates: x:68 y:75 and Station: Jacksonville. Coordinates: x:47 y:62
+A train rapid#13 originating from Irving, going from Kennewick, to Apple Valley. 63 percent done with its route.
+ Currently moving between Station: Fort Smith. Coordinates: x:21 y:35 and Station: San Antonio. Coordinates: x:20 y:48
+A train graphics#5 originating from Rockford, going from Rockford, to Medford. 64 percent done with its route.
+ Currently moving between Station: Pensacola. Coordinates: x:54 y:97 and Station: San Bernardino. Coordinates: x:31 y:92
+A train yn#9 originating from Lewisville, going from Hemet, to Charlotte. 69 percent done with its route.
+ Currently moving between Station: San Bernardino. Coordinates: x:31 y:92 and Station: Waco. Coordinates: x:71 y:75
+A train nationwide#20 originating from Irving, going from Fort Smith, to Anaheim. 70 percent done with its route.
+ Currently moving between Station: Kennewick. Coordinates: x:44 y:32 and Station: Saint Louis. Coordinates: x:72 y:28
+A train distributions#6 originating from Rockford, going from Oklahoma City, to Lewisville. 89 percent done with its route.
+ Currently moving between Station: Albany. Coordinates: x:21 y:44 and Station: San Antonio. Coordinates: x:20 y:48
+A train chest#7 originating from Rockford, going from Evansville, to Las Vegas. 100 percent done with its route.
+ Currently moving between Station: Overland Park. Coordinates: x:10 y:38 and Station: Las Vegas. Coordinates: x:14 y:43
+A train supporters#21 originating from Irving, going from Naperville, to Fayetteville. 100 percent done with its route.
+ Currently moving between Station: Santa Clarita. Coordinates: x:62 y:23 and Station: Fayetteville. Coordinates: x:30 y:35
+A train chest#7 originating from Rockford, going from Evansville, to Las Vegas. Waiting for next connection to free up
+A train always#18 originating from Sioux City, going from Santa Cruz, to West Covina. Waiting for next connection to free up
+A train scottish#24 originating from Sioux City, going from Clearwater, to McAllen. Waiting for next connection to free up
+A train variance#25 originating from Sioux City, going from Hemet, to Gastonia. 25 percent done with its route.
+ Currently moving between Station: Albuquerque. Coordinates: x:68 y:78 and Station: Antioch. Coordinates: x:68 y:75
+A train distances#4 originating from Medford, going from San Bernardino, to Tempe. 31 percent done with its route.
+ Currently moving between Station: Boulder. Coordinates: x:56 y:82 and Station: Raleigh. Coordinates: x:67 y:68
+A train cancer#17 originating from Irving, going from Charleston, to Ann Arbor. 38 percent done with its route.
+ Currently moving between Station: Santa Clarita. Coordinates: x:62 y:23 and Station: Naperville. Coordinates: x:18 y:22
+A train could#3 originating from Sioux City, going from Sioux City, to Simi Valley. 40 percent done with its route.
+ Currently moving between Station: Las Vegas. Coordinates: x:14 y:43 and Station: Bradenton. Coordinates: x:3 y:57
+A train powered#15 originating from Irving, going from Cary, to San Diego. 41 percent done with its route.
+ Currently moving between Station: Boulder. Coordinates: x:56 y:82 and Station: Albuquerque. Coordinates: x:68 y:78
+A train potter#14 originating from Irving, going from Apple Valley, to Modesto. 42 percent done with its route.
+ Currently moving between Station: Washington. Coordinates: x:65 y:64 and Station: Waterloo. Coordinates: x:77 y:57
+A train holds#1 originating from Lewisville, going from Saint Paul, to Melbourne. 51 percent done with its route.
+ Currently moving between Station: Fayetteville. Coordinates: x:57 y:34 and Station: Kennewick. Coordinates: x:44 y:32
+A train hardwood#10 originating from Lewisville, going from Evansville, to Fayetteville. 57 percent done with its route.
+ Currently moving between Station: Fort Lauderdale. Coordinates: x:39 y:10 and Station: Santa Clarita. Coordinates: x:62 y:23
+A train neither#11 originating from Lewisville, going from New York, to Champaign. 57 percent done with its route.
+ Currently moving between Station: Durham. Coordinates: x:90 y:57 and Station: Bradenton. Coordinates: x:52 y:45
+A train connecting#19 originating from Irving, going from Rochester, to Fayetteville. 58 percent done with its route.
+ Currently moving between Station: Antioch. Coordinates: x:68 y:75 and Station: Jacksonville. Coordinates: x:47 y:62
+A train fatal#22 originating from Irving, going from Hialeah, to Waco. 59 percent done with its route.
+ Currently moving between Station: Pensacola. Coordinates: x:54 y:97 and Station: San Bernardino. Coordinates: x:31 y:92
+A train graphics#5 originating from Rockford, going from Rockford, to Medford. 66 percent done with its route.
+ Currently moving between Station: San Bernardino. Coordinates: x:31 y:92 and Station: Redding. Coordinates: x:29 y:94
+A train bull#8 originating from Rockford, going from Melbourne, to Chandler. 67 percent done with its route.
+ Currently moving between Station: Cleveland. Coordinates: x:54 y:51 and Station: New York. Coordinates: x:67 y:49
+A train burns#2 originating from Irving, going from Fayetteville, to Irving. 70 percent done with its route.
+ Currently moving between Station: Apple Valley. Coordinates: x:35 y:61 and Station: Santa Cruz. Coordinates: x:61 y:72
+A train nationwide#20 originating from Irving, going from Fort Smith, to Anaheim. 70 percent done with its route.
+ Currently moving between Station: Kennewick. Coordinates: x:44 y:32 and Station: Saint Louis. Coordinates: x:72 y:28
+A train yn#9 originating from Lewisville, going from Hemet, to Charlotte. 72 percent done with its route.
+ Currently moving between Station: Waco. Coordinates: x:71 y:75 and Station: Mesquite. Coordinates: x:73 y:74
+A train rapid#13 originating from Irving, going from Kennewick, to Apple Valley. 79 percent done with its route.
+ Currently moving between Station: San Antonio. Coordinates: x:20 y:48 and Station: West Covina. Coordinates: x:30 y:49
+A train police#12 originating from Lewisville, going from Appleton, to McHenry. 88 percent done with its route.
+ Currently moving between Station: Moreno Valley. Coordinates: x:50 y:51 and Station: Albany. Coordinates: x:21 y:44
+A train distributions#6 originating from Rockford, going from Oklahoma City, to Lewisville. 100 percent done with its route.
+ Currently moving between Station: San Antonio. Coordinates: x:20 y:48 and Station: Lewisville. Coordinates: x:15 y:45
+A train vegetation#16 originating from Irving, going from Albany, to Champaign. 100 percent done with its route.
+ Currently moving between Station: Modesto. Coordinates: x:60 y:40 and Station: Champaign. Coordinates: x:95 y:31
+A train supporters#21 origina
