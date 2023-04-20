@@ -43,13 +43,13 @@ public class Cli {
     private void parseCommand(String str, Scanner scanner) throws ExitException {
         switch (str) {
             case "exit" -> throw new ExitException();
-            case "add_train" -> this.addTrain(scanner);
             case "print_stations" -> this.printStations();
             case "print_train" -> this.printTrain(scanner);
+            case "add_train" -> this.addTrain(scanner);
+            case "remove_train" -> this.removeTrain(scanner);
             case "print_all_trains" -> this.printAllTrains();
             case "print_all_trains_status" -> this.printAllTrainsStatus();
             case "print_cars" -> this.printCars(scanner);
-            case "remove_train" -> this.removeTrain(scanner);
             case "add_cars" -> this.addCars(scanner);
             case "remove_car" -> this.removeCar(scanner);
         }

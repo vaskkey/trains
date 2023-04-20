@@ -126,7 +126,7 @@ public class Locomotive extends Thread {
     public synchronized String getStatus() {
         int p = getPercentDone();
         String str = p > -1 ? String.format("%d percent done with its route.%n Currently moving between %s and %s%n", p, this.currentConnection.getFrom(), this.currentConnection.getTo())
-                : "Waiting for next connection to free up\n";
+                : "Waiting before moving on\n";
         return String.format("A train %s originating from %s, going from %s, to %s. %s", this, this.parentStation, this.startStation.getName(), this.endStation.getName(), str);
     }
 
