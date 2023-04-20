@@ -4,6 +4,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+import trains.exceptions.InvalidParams;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -43,6 +44,43 @@ public class RouteBuilder {
         }
 
         return stations;
+    }
+
+    public static Station parseParams(String params, StationsMatrix stations) throws Exception {
+        String[] p = params.split(",");
+
+        if (p.length != 3) {
+            throw new InvalidParams();
+        }
+
+        String name = p[0];
+
+        if (name.equals("")) {
+            throw new InvalidParams();
+        }
+
+        int x, y;
+
+        try {
+            x = Integer.parseInt(p[1]);
+            y = Integer.parseInt(p[2]);
+        } catch (Exception e) {
+            throw new InvalidParams();
+        }
+
+        if (stations.stationExists(x, y)) {
+            throw new Exception("There is already a station under given coordinates");
+        }
+
+        if ((x < 0 || x > 100)) {
+            throw new Exception("Stations x should be between 0 and 100");
+        }
+
+        if ((y < 0 || y > 100)) {
+            throw new Exception("Stations y should be between 0 and 100");
+        }
+
+        return new Station(name, x, y);
     }
 
 }

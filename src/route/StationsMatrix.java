@@ -1,6 +1,7 @@
 package route;
 
 import route.exceptions.StationNotFound;
+import trains.exceptions.NotFound;
 
 import java.util.*;
 
@@ -38,6 +39,7 @@ public class StationsMatrix {
 
     public void addStation(Station st) {
         this.stations.add(st);
+        this.buildGraph(this.graph, this.stations);
     }
 
     // Implemented DFS algorithm after several experiments with other approaches
@@ -75,7 +77,6 @@ public class StationsMatrix {
 
                 Collections.reverse(tmpList);
                 tmpList.forEach(route::addConection);
-                tmpList.forEach(System.out::println);
 
                 return route;
             }
@@ -94,6 +95,21 @@ public class StationsMatrix {
         return route;
     }
 
+    public boolean stationExists(int x, int y) {
+        Optional<Station> st = this.stations.stream().filter(s -> s.getX() == x && s.getY() == y).findFirst();
+
+        return st.isPresent();
+    }
+
+    public Station findByName(String name) throws NotFound {
+        Optional<Station> st = this.stations.stream().filter(l -> l.getName().equals(name)).findFirst();
+
+        if (st.isEmpty()) {
+            throw new NotFound("Station");
+        }
+
+        return st.get();
+    }
 
     public void print() {
         this.stations.forEach(System.out::println);

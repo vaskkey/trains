@@ -1,6 +1,7 @@
 package cmd;
 
 import route.RouteBuilder;
+import route.Station;
 import route.StationsMatrix;
 import trains.Locomotive;
 import trains.TrainCar;
@@ -29,7 +30,7 @@ public class Cli {
         logger.start();
 
         while (true) {
-            System.out.println("Available commands: exit, add_train, print_stations, print_all_trains, print_train, print_all_trains_status, remove_train");
+            System.out.println("Available commands: exit, print_stations, print_station add_station, print_all_trains_status, print_all_trains, print_train, add_train, remove_train");
             Scanner scanner = new Scanner(System.in);
             try {
                 this.parseCommand(scanner.nextLine(), scanner);
@@ -44,6 +45,8 @@ public class Cli {
         switch (str) {
             case "exit" -> throw new ExitException();
             case "print_stations" -> this.printStations();
+            case "print_station" -> this.printStation(scanner);
+            case "add_station" -> this.addStation(scanner);
             case "print_train" -> this.printTrain(scanner);
             case "add_train" -> this.addTrain(scanner);
             case "remove_train" -> this.removeTrain(scanner);
@@ -57,6 +60,37 @@ public class Cli {
 
     private void printStations() {
         this.stations.print();
+    }
+
+    private void printStation(Scanner scanner) {
+        System.out.println("Station Name:");
+        String params = scanner.nextLine();
+
+        try {
+            Station st = this.stations.findByName(params);
+
+            System.out.println(st);
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+    }
+
+    private void addStation(Scanner scanner) {
+        Station station;
+        System.out.println("Provide params separated by comma `name,x,y`");
+        String params = scanner.nextLine();
+
+        if (params.equals("abort")) return;
+
+        try {
+            station = RouteBuilder.parseParams(params, this.stations);
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+            this.addStation(scanner);
+            return;
+        }
+
+        this.stations.addStation(station);
     }
 
     private void addTrain(Scanner scanner) {

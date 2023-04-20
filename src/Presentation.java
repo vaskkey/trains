@@ -1,6 +1,7 @@
 import cmd.Logger;
 import route.Route;
 import route.RouteBuilder;
+import route.Station;
 import route.StationsMatrix;
 import route.exceptions.StationNotFound;
 import trains.Locomotive;
@@ -16,6 +17,7 @@ public class Presentation {
 
     public static void main(String[] args) {
         presentReadingFromFiles();
+        presentAddingStation();
         presentAddingTrain();
 
         presentWritingLogsAndTrainMultithreading();
@@ -35,12 +37,29 @@ public class Presentation {
         });
     }
 
+    public static void presentAddingStation() {
+        Station station;
+        Station station2;
+
+        try {
+            station = RouteBuilder.parseParams("Warszawa,1,1", stations);
+            station2 = RouteBuilder.parseParams("Bydgoszcz,99,99", stations);
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+            return;
+        }
+
+        stations.addStation(station);
+        stations.addStation(station2);
+    }
+
+
     public static void presentAddingTrain() {
         System.out.println("\nCreate a new train an add cars to it");
         String[] types = {"passenger", "mail", "baggage", "restaurant", "freight", "heavy_freight", "liquid", "cooling", "gas", "explosives", "toxic", "liq_toxic"};
 
         try {
-            Route route = stations.getPath("Oakland", "Evansville");
+            Route route = stations.getPath("Warszawa", "Bydgoszcz");
             Locomotive loco = new Locomotive("Bigby", route, route.getReturnRoute(), "Rochester", 25, 12, 500);
 
             for (String type : types) {
