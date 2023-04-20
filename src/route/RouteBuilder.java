@@ -8,6 +8,7 @@ import org.w3c.dom.NodeList;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
+import java.util.ArrayList;
 
 public class RouteBuilder {
     public static StationsMatrix loadStations() {
@@ -17,7 +18,7 @@ public class RouteBuilder {
             DocumentBuilder db = dbf.newDocumentBuilder();
             Document doc = db.parse(new File("src/stations.xml"));
             NodeList nl = doc.getElementsByTagName("station");
-            stations = new StationsMatrix(nl.getLength() / 10, 10);
+            ArrayList<Station> sts = new ArrayList<>();
 
             for (int i = 0; i < nl.getLength(); i++) {
                 Node node = nl.item(i);
@@ -29,11 +30,12 @@ public class RouteBuilder {
                     String y = el.getElementsByTagName("y").item(0).getTextContent();
 
                     Station st = new Station(city, Integer.parseInt(x), Integer.parseInt(y));
-                    stations.addStation(st);
+                    sts.add(st);
                 }
             }
 
-            stations.sort();
+            stations = new StationsMatrix(sts);
+
         } catch (Exception e) {
             e.printStackTrace();
             System.exit(1);

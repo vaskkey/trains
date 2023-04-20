@@ -15,9 +15,8 @@ public class StationConnection {
         this.to = to;
         this.from = from;
         this.id = ID_COUNT++;
-        int xSq = (int) Math.pow(from.getX() - to.getX(), 2);
-        int ySq = (int) Math.pow(from.getY() - to.getY(), 2);
-        this.length = (int) Math.sqrt(xSq + ySq);
+
+        this.length = calculateLenth(from.getX(), to.getX(), getFrom().getY(), to.getY());
     }
 
     public static StationConnection getConnection(Station from, Station to) {
@@ -47,5 +46,12 @@ public class StationConnection {
     @Override
     public String toString() {
         return String.format("Connection between %s and %s. With length of %d", this.from.getName(), this.to.getName(), this.length);
+    }
+
+    public static int calculateLenth(int x1, int x2, int y1, int y2) {
+        double xSq = Math.pow(x1 - x2, 2);
+        double ySq = Math.pow(y1 - y2, 2);
+
+        return (int) Math.sqrt(xSq + ySq);
     }
 }
