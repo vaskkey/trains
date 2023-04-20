@@ -72,6 +72,10 @@ public class RouteBuilder {
             throw new Exception("There is already a station under given coordinates");
         }
 
+        if (stations.stationExists(name)) {
+            throw new Exception("There is already a station with a given name");
+        }
+
         if ((x < 0 || x > 100)) {
             throw new Exception("Stations x should be between 0 and 100");
         }

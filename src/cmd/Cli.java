@@ -33,7 +33,7 @@ public class Cli {
         logger.start();
 
         while (true) {
-            System.out.println("Available commands: exit, print_stations, print_station add_station, print_all_trains_status, print_all_trains, print_train, add_train, remove_train, add_trains, print_cars add_cars, remove_car");
+            System.out.println("Available commands: exit, print_stations, print_station add_station, print_all_trains_status, print_all_trains, print_train, add_train, remove_train, print_cars add_cars, remove_car");
             Scanner scanner = new Scanner(System.in);
             try {
                 this.parseCommand(scanner.nextLine(), scanner);
@@ -115,6 +115,7 @@ public class Cli {
 
         this.trains.add(loco);
         System.out.printf("%s is on it's way%n", loco);
+        loco.setOnInterrupt(this.trains::remove);
         loco.start();
     }
 

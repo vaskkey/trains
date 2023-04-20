@@ -101,6 +101,12 @@ public class StationsMatrix {
         return st.isPresent();
     }
 
+    public boolean stationExists(String name) {
+        Optional<Station> st = this.stations.stream().filter(s -> s.getName().equals(name)).findFirst();
+
+        return st.isPresent();
+    }
+
     public Station findByName(String name) throws NotFound {
         Optional<Station> st = this.stations.stream().filter(l -> l.getName().equals(name)).findFirst();
 
