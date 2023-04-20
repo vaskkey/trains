@@ -1,119 +1,117 @@
 package route;
 
 import route.exceptions.StationNotFound;
+import trains.exceptions.NotFound;
 
-import java.util.Arrays;
-import java.util.Comparator;
+import java.util.*;
 
 public class StationsMatrix {
-    private final int xLength;
-    private int lastY = 0;
-    private int lastX = 0;
-    private Station[][] stations;
+    static int MAX_DISTANCE = 30;
+    HashMap<Station, ArrayList<Station>> graph;
+    ArrayList<Station> stations;
 
-    public StationsMatrix(int yLength, int xLength) {
-        this.stations = new Station[yLength][xLength];
-        this.xLength = xLength;
+    public StationsMatrix(ArrayList<Station> stations) {
+        this.graph = new HashMap<>();
+        this.stations = stations;
+
+        this.buildGraph(graph, stations);
+    }
+
+    public void buildGraph(HashMap<Station, ArrayList<Station>> graph, ArrayList<Station> stations) {
+        for (int i = 0; i < stations.size(); i++) {
+            Station st = stations.get(i);
+            ArrayList<Station> neighbours = new ArrayList<>();
+
+            for (int j = 0; j < stations.size(); j++) {
+                Station st2 = stations.get(j);
+                if (i == j) continue;
+
+                int k = StationConnection.calculateLenth(st.getX(), st2.getX(), st.getY(), st2.getY());
+
+                if (k < MAX_DISTANCE) {
+                    neighbours.add(st2);
+                }
+            }
+
+            graph.put(st, neighbours);
+        }
     }
 
     public void addStation(Station st) {
-        if (this.lastX >= this.xLength) {
-            this.lastY++;
-            this.lastX = 0;
-        }
-
-        this.stations[this.lastY][this.lastX++] = st;
+        this.stations.add(st);
+        this.buildGraph(this.graph, this.stations);
     }
 
-    public void sort() {
-        Station[] st = this.flatten();
-        Arrays.sort(st, Comparator.comparingInt(Station::getY));
-        this.stations = new Station[this.stations.length][xLength];
-
-        int k = 0;
-        for (int i = 0; i < st.length; i += this.xLength) {
-            System.arraycopy(st, i, this.stations[k], 0, this.xLength);
-            Arrays.sort(this.stations[k], Comparator.comparingInt(Station::getX));
-            k++;
-        }
-    }
-
-    public Coordinates getStationMatrixXYByName(String name) throws StationNotFound {
-        for (int i = 0; i < this.stations.length; i++) {
-            for (int j = 0; j < this.stations[i].length; j++) {
-                if (this.stations[i][j].getName().equals(name)) {
-                    return new Coordinates(j, i);
-                }
-            }
-        }
-
-        throw new StationNotFound();
-    }
-
+    // Implemented DFS algorithm after several experiments with other approaches
     public Route getPath(String from, String to) throws StationNotFound {
-        Coordinates fromXY = this.getStationMatrixXYByName(from);
-        Coordinates toXY = this.getStationMatrixXYByName(to);
+        Optional<Station> fromSt = this.stations.stream().filter(s -> s.getName().equals(from)).findFirst();
+        Optional<Station> toSt = this.stations.stream().filter(s -> s.getName().equals(to)).findFirst();
 
-        return this.getPath(fromXY, toXY);
-    }
+        if (fromSt.isEmpty()) throw new StationNotFound();
+        if (toSt.isEmpty()) throw new StationNotFound();
 
-    public Route getPath(Coordinates from, Coordinates to) {
-        Station tmp = this.stations[from.y][from.x];
+        Map<Station, Station> parent = new HashMap<>();
+        Stack<Station> currentStack = new Stack<>();
+        Set<Station> visited = new HashSet<>();
+
+        currentStack.push(fromSt.get());
+        visited.add(fromSt.get());
+        parent.put(fromSt.get(), null);
+
         Route route = new Route();
-        if (from.x < to.x) {
-            for (int i = from.x + 1; i <= to.x; i++) {
-                Station st = this.stations[from.y][i];
-                StationConnection sc = StationConnection.getConnection(tmp, st);
-                route.addConection(sc);
-                tmp = st;
-            }
-        }
 
-        if (from.x > to.x) {
-            for (int i = from.x - 1; i >= to.x; i--) {
-                Station st = this.stations[from.y][i];
-                StationConnection sc = StationConnection.getConnection(tmp, st);
-                route.addConection(sc);
-                tmp = st;
-            }
-        }
+        while (!currentStack.isEmpty()) {
+            Station currStation = currentStack.pop();
 
-        if (from.y < to.y) {
-            for (int i = from.y + 1; i <= to.y; i++) {
-                Station st = this.stations[i][to.x];
-                StationConnection sc = StationConnection.getConnection(tmp, st);
-                route.addConection(sc);
-                tmp = st;
-            }
-        }
+            if (currStation == toSt.get()) {
+                ArrayList<StationConnection> tmpList = new ArrayList<>();
 
-        if (from.y > to.y) {
-            for (int i = from.y - 1; i >= to.y; i--) {
-                Station st = this.stations[i][to.x];
-                StationConnection sc = StationConnection.getConnection(tmp, st);
-                route.addConection(sc);
-                tmp = st;
+                while (currStation != null) {
+                    Station tmpStation = parent.get(currStation);
+                    if (tmpStation != null) {
+                        tmpList.add(StationConnection.getConnection(tmpStation, currStation));
+                    }
+
+                    currStation = tmpStation;
+                }
+
+                Collections.reverse(tmpList);
+                tmpList.forEach(route::addConection);
+
+                return route;
+            }
+
+            ArrayList<Station> neighbours = this.graph.get(currStation);
+
+            for (Station neighbour : neighbours) {
+                if (!visited.contains(neighbour)) {
+                    visited.add(neighbour);
+                    currentStack.add(neighbour);
+                    parent.put(neighbour, currStation);
+                }
             }
         }
 
         return route;
     }
 
-    private Station[] flatten() {
-        Station[] st = new Station[this.stations.length * this.xLength];
-        int k = 0;
-        for (Station[] station : this.stations) {
-            for (Station value : station) {
-                st[k++] = value;
-            }
+    public boolean stationExists(int x, int y) {
+        Optional<Station> st = this.stations.stream().filter(s -> s.getX() == x && s.getY() == y).findFirst();
+
+        return st.isPresent();
+    }
+
+    public Station findByName(String name) throws NotFound {
+        Optional<Station> st = this.stations.stream().filter(l -> l.getName().equals(name)).findFirst();
+
+        if (st.isEmpty()) {
+            throw new NotFound("Station");
         }
 
-        return st;
+        return st.get();
     }
 
     public void print() {
-        for (Station[] stt : this.stations) {
-            System.out.println(Arrays.toString(stt));
-        }
+        this.stations.forEach(System.out::println);
     }
 }
