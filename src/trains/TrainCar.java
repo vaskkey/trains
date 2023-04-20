@@ -15,6 +15,10 @@ abstract public class TrainCar {
         this.id = ID++;
     }
 
+    public double getMaxGrossWeight() {
+        return this.maxGrossWeight;
+    }
+
     public abstract void stationAction() throws Exception;
 
     public abstract void endRouteAction();
