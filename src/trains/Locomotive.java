@@ -14,8 +14,8 @@ public class Locomotive extends Thread {
     private final static String monitor = "";
     private static int lastId = 1;
     private final String name;
-    private final Station startStation;
-    private final Station endStation;
+    private Station startStation;
+    private Station endStation;
     private final int maxCars;
     private final int maxElectricCars;
     private final double maxWeight;
@@ -108,6 +108,8 @@ public class Locomotive extends Thread {
 
             this.route = returnRoute;
             this.returnRoute = tmp;
+            this.startStation = this.route.getFrom();
+            this.endStation = this.route.getTo();
             this.performLastStationActions();
             Thread.sleep(30_000);
         } catch (RailRoadHazardException e) {
