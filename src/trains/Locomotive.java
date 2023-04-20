@@ -7,6 +7,7 @@ import route.exceptions.LastStationException;
 import trains.exceptions.*;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.Optional;
 
 public class Locomotive extends Thread {
@@ -158,6 +159,13 @@ public class Locomotive extends Thread {
         this.cars.forEach(TrainCar::endRouteAction);
     }
 
+
+    public String getCars() {
+        return this.cars.stream()
+                .sorted(Comparator.comparingDouble(TrainCar::getMaxGrossWeight))
+                .map(TrainCar::toString)
+                .reduce("", (acc, val) -> acc + val + "\n");
+    }
 
     public void printCars() {
         this.cars.forEach(System.out::println);

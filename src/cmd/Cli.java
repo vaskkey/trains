@@ -9,7 +9,10 @@ import trains.TrainFactory;
 import trains.exceptions.NotFound;
 import trains.exceptions.TooManyCarsException;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+import java.util.Scanner;
 
 public class Cli {
     StationsMatrix stations;
@@ -30,7 +33,7 @@ public class Cli {
         logger.start();
 
         while (true) {
-            System.out.println("Available commands: exit, print_stations, print_station add_station, print_all_trains_status, print_all_trains, print_train, add_train, remove_train");
+            System.out.println("Available commands: exit, print_stations, print_station add_station, print_all_trains_status, print_all_trains, print_train, add_train, remove_train, add_trains, print_cars add_cars, remove_car");
             Scanner scanner = new Scanner(System.in);
             try {
                 this.parseCommand(scanner.nextLine(), scanner);
@@ -156,11 +159,13 @@ public class Cli {
     }
 
     private void printAllTrainsStatus() {
-        this.trains.stream().sorted(Comparator.comparingInt(Locomotive::getPercentDone)).forEach(Locomotive::printStatus);
+        this.trains.stream().sorted((a, b) -> b.getPercentDone() - a.getPercentDone()).forEach(Locomotive::printStatus);
     }
 
     private List<String> getAllTrainsStatus() {
-        return this.trains.stream().sorted(Comparator.comparingInt(Locomotive::getPercentDone)).map(Locomotive::getStatus).toList();
+        return this.trains.stream().sorted((a, b) -> b.getPercentDone() - a.getPercentDone()).map(locomotive -> {
+            return locomotive.getStatus() + '\n' + locomotive.getCars();
+        }).toList();
     }
 
     private void printTrain(Scanner scanner) {
