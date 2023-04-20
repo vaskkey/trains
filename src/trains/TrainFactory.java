@@ -106,7 +106,7 @@ public class TrainFactory {
         };
     }
 
-    private static TrainCar getCar(String type) throws Exception {
+    public static TrainCar getCar(String type) throws Exception {
         return switch (type) {
             case "passenger" -> new PassengerCar();
             case "mail" -> new MailCar();
@@ -124,7 +124,7 @@ public class TrainFactory {
         };
     }
 
-    private static TrainCar getRandomCar() throws Exception {
+    public static TrainCar getRandomCar() throws Exception {
         String[] types = {"passenger", "mail", "baggage", "restaurant", "freight", "heavy_freight", "liquid", "cooling", "gas", "explosives", "toxic", "liq_toxic"};
         Random rand = new Random();
 

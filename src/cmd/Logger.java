@@ -4,11 +4,12 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
 
-interface callbackInterface {
-    List<String> logData();
-}
 
 public class Logger extends Thread {
+    public interface callbackInterface {
+        List<String> logData();
+    }
+
     callbackInterface cb;
     FileWriter fw;
 
