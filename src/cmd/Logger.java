@@ -1,5 +1,6 @@
 package cmd;
 
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
@@ -16,7 +17,9 @@ public class Logger extends Thread {
     public Logger(callbackInterface cb) {
         this.cb = cb;
         try {
-            this.fw = new FileWriter("src/AppData.txt");
+            File file = new File("src/AppData.txt");
+            file.createNewFile();
+            this.fw = new FileWriter(file);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
